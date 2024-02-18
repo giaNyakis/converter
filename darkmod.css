@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background: linear-gradient(#3F4C77, #7586BD, #3F4C77); 
+}
+#main {
+    margin: 0 auto;
+    width: 550px;
+    height: 730px;
+    background: #1F2937;
+}
+#heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 285px;
+    background: #6943FF;
+} 
+#main #heading h2 {
+    margin: 30px;
+    color: white;
+    font-weight: bolder;
+    font-size: 28px
+    
+}
+#main #heading input {
+    width: 117px;
+    height: 83px;
+    font-size: 58px;
+    font-weight: 800;
+    text-align: center;
+    background: #6943FF;
+    color: white;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+}
+#main #heading button {
+    width: 124px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #3D3D3D;
+    background: white;
+    padding: 9px 28px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-around;
+    align-items: center;
+}
+#lengthblock, #volumeblock, #massblock {
+    width: 500px;
+    height: 108px;
+    background: #273549;
+    margin-top: 30px;
+    text-align: center;
+}
+.units {
+    color: #CCC1FF;
+    font-size: 20px;
+    font-weight: 600;
+}
+#lightbtn {
+    margin-top: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    background: #273549;
+    border:1px solid #273549;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+#lightbtn a {
+    color: white;
+    text-decoration: none;
+}
+.result {
+    color: white;
+}
